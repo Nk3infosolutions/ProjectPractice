@@ -80,17 +80,16 @@ public class MainActivity extends AppCompatActivity {
         String author = authorInput.getText().toString().trim();
         String description = descriptionInput.getText().toString().trim();
 
-        if (name.isEmpty()) {
+        Book.ValidationError validationError = Book.validate(name, author, description);
+        if (validationError == Book.ValidationError.NAME) {
             nameInput.setError("Enter a book name");
             nameInput.requestFocus();
             return;
-        }
-        if (author.isEmpty()) {
+        } else if (validationError == Book.ValidationError.AUTHOR) {
             authorInput.setError("Enter an author");
             authorInput.requestFocus();
             return;
-        }
-        if (description.isEmpty()) {
+        } else if (validationError == Book.ValidationError.DESCRIPTION) {
             descriptionInput.setError("Enter a description");
             descriptionInput.requestFocus();
             return;
@@ -228,22 +227,6 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         if (booksReference != null && booksListener != null) {
             booksReference.removeEventListener(booksListener);
-        }
-    }
-
-    public static class Book {
-        public String id;
-        public String name;
-        public String author;
-        public String description;
-
-        public Book() {
-        }
-
-        Book(String name, String author, String description) {
-            this.name = name;
-            this.author = author;
-            this.description = description;
         }
     }
 }
