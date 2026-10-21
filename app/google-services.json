@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1033144736654",
+    "project_id": "book-curd",
+    "storage_bucket": "book-curd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033144736654:android:4f7bcf65e704bf293862df",
+        "android_client_info": {
+          "package_name": "com.example.book_curd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaMQUZth1qxLRDidOhm4G4VkSzZDkhb3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Book Library</string>
+    <string name="firebase_database_url">https://book-curd-default-rtdb.firebaseio.com</string>
+    <string name="library_eyebrow">YOUR PERSONAL COLLECTION</string>
+    <string name="library_title">Book Library</string>
+    <string name="library_subtitle">Keep your favorite reads in one place.</string>
+    <string name="your_books">Your books</string>
+    <string name="add_book_heading">Add a new book</string>
+    <string name="book_name_hint">Book name</string>
+    <string name="author_hint">Author</string>
+    <string name="description_hint">Description</string>
+    <string name="add_book_button">Add book</string>
+    <string name="delete_book">Delete book</string>
+    <string name="book_author">By %1$s</string>
+    <string name="empty_library">Your library is empty. Add a book below to get started.</string>
+    <string name="delete_confirmation_title">Delete this book?</string>
+    <string name="delete_confirmation_message">“%1$s” will be removed from your library.</string>
+    <string name="cancel">Cancel</string>
+    <plurals name="book_count">
+        <item quantity="one">%d book</item>
+        <item quantity="other">%d books</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="screen_background">#F5F6F2</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="brand_green">#286454</color>
+    <color name="text_primary">#1E2C28</color>
+    <color name="text_muted">#74817C</color>
+    <color name="input_background">#FFFEFC</color>
+    <color name="input_stroke">#D8E0DA</color>
+    <color name="delete_red">#A94339</color>
+    <color name="delete_surface">#FFF0EE</color>
+</resources>
